@@ -1,8 +1,7 @@
 import Image from 'next/image'
 
-const dir = String(process.env.BACKEND_URL)
-console.log(dir);
-console.log('test');
+const dir = "/tnct_sc_gakkaten.github.io";
+// const dir = String(process.env.BACKEND_URL)
 
 export default function Home() {
   return (
