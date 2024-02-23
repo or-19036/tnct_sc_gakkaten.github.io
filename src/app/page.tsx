@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 const dir = String(process.env.BACKEND_URL)
 console.log(dir);
+console.log('test');
 
 export default function Home() {
   return (
